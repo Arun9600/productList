@@ -2,7 +2,7 @@ let ProductDatas = ({ product }) => {
   let productName = product.stocked ? (
     product.name
   ) : (
-    <span style={{ color: "red" }}>product.name</span>
+    <span style={{ color: "red" }}>{product.name}</span>
   );
   return (
     <>
